@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
 });
 
 // Routes
-app.use("/api/", signupRoutes); // signup, verify OTP
+app.use("/api", signupRoutes); // signup, verify OTP
 app.use("/api/notes", noteRoutes); // note CRUD
 
 // Start server
