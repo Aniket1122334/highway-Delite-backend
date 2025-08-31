@@ -13,7 +13,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: "https://highway-delite-frontend-seven.vercel.app/", // ya frontend ka URL
+  origin: "https://highway-delite-frontend-seven.vercel.app", // ya frontend ka URL
   credentials: true
 }));
 
